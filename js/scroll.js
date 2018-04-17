@@ -1,0 +1,1 @@
+function wheel(e){var l=0;e.wheelDelta?l=e.wheelDelta/120:e.detail&&(l=-e.detail/3),handle(l),e.preventDefault&&e.preventDefault(),e.returnValue=!1}function handle(e){var l=1e3,n=300;$("html, body").stop().animate({scrollTop:$(window).scrollTop()-n*e},l)}window.addEventListener&&window.addEventListener("DOMMouseScroll",wheel,!1),window.onmousewheel=document.onmousewheel=wheel;

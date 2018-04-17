@@ -1,0 +1,1 @@
+rm about.html documentation.html resources.html index.html error.html course.html
