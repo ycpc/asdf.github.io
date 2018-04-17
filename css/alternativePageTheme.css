@@ -1,0 +1,67 @@
+/* Error */
+
+.error-template {
+    padding: 40px 15px;
+    text-align: center;
+    color: #FFF
+}
+.error-actions {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+.error-actions .btn {
+    margin-right: 10px
+}
+
+/* General-use */
+
+.lead{
+    margin-top:-3%;
+    font-size:15px;
+    color:#8D8D8D;
+    font-weight:400;
+}
+
+.page-header {
+    margin-top: 0
+}
+
+.extrapadding {
+    margin-top: 65px;
+    margin-right: 1.5%!important;
+    margin-left: 1.5%!important;
+    width: 97%!important
+}
+
+.nicepadding {
+    padding-left: 30px;
+    padding-top: -20px;
+    margin-top: 20px
+}
+
+@media (max-width: 768px) {
+    .page-header {
+        font-size: 20px
+    }
+
+    #section-heading {
+        text-align: center;
+    }
+}
+
+/* Overrides */
+
+body {
+    margin-bottom: 0;
+    background: #09C!important;
+    overflow-x: hidden!important;
+    min-height: 100%;
+}
+body {
+    color: #5a5a5a
+}
+.panel-body {
+    padding-top: 0;
+    padding-bottom: 15px;
+    margin-bottom: 0
+}

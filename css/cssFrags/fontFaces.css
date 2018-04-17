@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 200;
+    src: local("Source Sans Pro ExtraLight"), local(SourceSansPro-ExtraLight), url(https://www.ycpc.us/fonts/source.woff) format("woff")
+}
+@font-face {
+    font-family: monoglyceride;
+    src: url(../../fonts/monoglyceride-webfont.eot);
+    src: url(../../fonts/monoglyceride-webfont.eot?#iefix) format('embedded-opentype'), url(../../fonts/monoglyceride-webfont.woff) format('woff'), url(../../fonts/monoglyceride-webfont.ttf) format('truetype'), url(../../fonts/monoglyceride-webfont.svg#svgFontName) format('svg')
+}
+@font-face {
+    font-family: hero;
+    src: url(../../fonts/herolight-webfont.eot);
+    src: url(../../fonts/herolight-webfont.eot?#iefix) format('embedded-opentype'), url(../../fonts/herolight-webfont.woff) format('woff'), url(../../fonts/herolight-webfont.ttf) format('truetype'), url(../../fonts/herolight-webfont.svg#svgFontName) format('svg')
+}
+@font-face {
+    font-family: sansthin;
+    src: url(../../fonts/lh-line1-sans-thin-webfont-webfont.eot);
+    src: url(../../fonts/lh-line1-sans-thin-webfont-webfont.eot?#iefix) format('embedded-opentype'), url(../../fonts/lh-line1-sans-thin-webfont-webfont.woff) format('woff'), url(../../fonts/lh-line1-sans-thin-webfont-webfont.ttf) format('truetype'), url(../../fonts/lh-line1-sans-thin-webfont-webfont.svg#svgFontName) format('svg')
+}
